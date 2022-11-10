@@ -1,0 +1,44 @@
+EXP 5
+[A]	Enter an item name Project-1
+-	Maven project — ok Lhs- source code management Scm— git
+Repository url - github link https://github.com/roshanidmce/devexp5 Apply – save
+
+Build now
+-	- - #1
+Console output- success– status
+
+[B]	enter an item name Pipeline exp
+- pipeline – ok
+Lhs- pipeline – try sample pipeline Apply – save
+Bild now
+-	- - #1
+Console output
+—
+
+
+
+EXP 8- SELENIUM
+Enter an item name Selenium-test
+-	Maven project – ok Tick – project is parameterized
+Add parameter - choice parameter Name: XML
+Choices: testng.xml
+testng1.xml
+Again add parameter- choice parameter Name: BROWSER
+Choices: Chrome
+Firefox IE
+Again add parameter- string parameter Name: URL
+Default value: https://www.google.com (type this)
+
+Source code management
+-	Git
+Repository url — github link https://github.com/roshanidmce/devexp7
+ 
+Build
+Root pom:- JenkinsDemo2/pom.xml
+Goals and options:- clean install -cDxmlFiles= $XML- Dbrowser= $BROWSER- Durl= $URL Apply – save
+
+Build with parameters – build
+Build history – - - - # — console output– success
+
+—
+
